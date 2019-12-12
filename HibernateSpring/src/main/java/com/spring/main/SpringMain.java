@@ -15,6 +15,7 @@ public class SpringMain {
 		EmpServiceImpl emp=(EmpServiceImpl)context.getBean("service");
 		System.out.println(emp.getAllEmployee());
 System.out.println("vaishnavi");
+System.out.println("ghorpade");
 		//Employee e1=new Employee(1,"vaishnavi");
 		/*
 	

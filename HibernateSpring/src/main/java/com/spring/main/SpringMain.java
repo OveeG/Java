@@ -14,7 +14,7 @@ public class SpringMain {
 		ApplicationContext context=new AnnotationConfigApplicationContext(SpringHibernateConfig.class);
 		EmpServiceImpl emp=(EmpServiceImpl)context.getBean("service");
 		System.out.println(emp.getAllEmployee());
-		System.out.println("my line for testing");
+System.out.println("vaishnavi");
 		//Employee e1=new Employee(1,"vaishnavi");
 		/*
 	
